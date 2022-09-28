@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins' sans-serif;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background:#25316D;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card{
+    background:#FFF;
+    display: flex;
+    align-items: center;
+    padding: 50px;
+    width: 900px;
+    border-radius: 10px;
+    position: relative;
+}
+.profile-img{
+    width: 200px;
+    border-radius: 50%;
+    border: 18px solid #f4eeff;
+}
+.info{
+    margin-left:30px;
+    color: #181818;
+    font-weight: 500;
+}
+.info h1{
+    font-size: 26px;
+    font-weight: 500;
+    color: #333;
+    margin-bottom: 10px;
+}
+.info p{
+    font-size: 17px;
+    font-weight: 500;
+    color: #333;
+    margin-bottom: 10px;
+}
+.info ul {
+    display: flex;
+    align-items: center;
+    margin: 10px 0 30px;
+}
+.info ul li{
+    list-style: none;
+    display: inline-flex;
+    align-items: center;
+    font-size: 15px;
+    margin-right: 20px;
+    margin-left: 12px;
+    margin-top: 12px;
+}
+.info ul li img{
+    width: 20px;
+    margin-right: 10px;
+}
+.links{
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+}
+.links a{
+text-decoration: none;
+display: inline-flex;
+align-items: center;
+height: 50px;
+background: #8749fd;
+color: #fff;
+border-radius: 2px solid #8749fd;
+padding: 10px 30px;
+margin-right: 20px;
+font-size: 15px;
+border-radius: 15px;
+}
+.links a img{
+    width: 25px;
+    margin-right: 10px;
+}
+.links .msg-btn{
+background: #8749fd;
+color: #FFF;
+}
+.share-icn{
+    width: 20px;
+    position: relative;
+    top: -120px;
+    right: 50px;
+    background: #f4eeff;
+    pad: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+}
